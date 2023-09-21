@@ -41,16 +41,16 @@ public class Examen1unidad2 {
         System.out.println("Ingresa el precio de compra del instrumento3");
         double Precio3 = scanner.nextDouble();
 
-        double Producto1G = (1250.45 - Precio1);
+        double instrumento1 = (1250.45 - Precio1);
 
-        double Producto2G = (3743 - Precio2);
+        double instrumento2 = (3743 - Precio2);
 
-        double Productoinstrumento13G = (2683.78 - Precio3);
+        double instrumento1 = (2683.78 - Precio3);
         scanner.close();
 
-        double Producto1GP = (Producto1G / Precio1) * 100;
-        double Producto2GP = (Producto2G / Precio2) * 100;
-        double Producto3GP = (Producto1G / Precio3) * 100;
+        double instrumento1 = (Producto1 / Precio1) * 100;
+        double instrumento2= (Producto2 / Precio2) * 100;
+        double instrumento3 = (Producto1 / Precio3) * 100;
 
         System.out.println("El porcentaje de ganancia de " + Instrumento1 + " es de " + Producto1GP + "%");
         System.out.println("El porcentaje de ganancia de " + Instrumento2 + " es de " + Producto2GP + "%");
